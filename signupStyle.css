@@ -1,0 +1,159 @@
+body {
+	font-family: avant-garde, helvetica, sans-serif;
+	font-size: 125%;
+
+}
+
+input {
+	height: 30px;
+	width: 350px;
+	padding: 5px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	margin-top: 5px;
+
+}
+
+label {
+	position: relative;
+	float: left;
+	top: 6px;
+	width: 200px;
+	
+}
+
+#formContainer {
+	float: left;
+	width: 750px;
+	height: 600px;
+	border-right: 1px solid #1f7a1f;
+	margin-top: 20px;
+	padding-top: 55px;
+}
+
+#submitForm {
+	margin-left: 200px;
+	width: 175px;
+
+}
+#errorField {
+	display: none;
+	color: #ff3300;
+	font-size: 75% !important;
+}
+
+#successField {
+	display: none;
+	color: #5cd65c;
+	padding: 15px;
+}
+
+.clear {
+	
+	clear:both;
+
+}
+
+#banner {
+	width: 100%;
+	height: 150px;
+	background-color: #85e085;
+
+}
+
+#pageContainer {
+	width: 1250px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#infoContainer {
+	height: 400px;
+	background-color: ;
+
+}
+
+#about {
+	float: left;
+	height: 400px;
+	width:650px;
+	padding: 0px 50px;
+
+}
+
+#bigPic {
+	height: 400px;
+	margin-left: 50px;
+	border: 1px solid #1f7a1f;
+	border-radius: 10px;
+}
+
+#finePrint {
+	font-size: 40%;
+	color: #808080;
+}
+
+#sidePanelHeader {
+	position: relative;
+	left: 160px;
+	font-size: 30px
+	border-top: 1px solid #1f7a1f;
+}
+
+#testimonialPic {
+	width: 350px;
+	position: relative;
+	left: 75px;
+	border: 2px solid black;
+	border-radius: 50%
+}
+
+#foot {
+	height: 300px;
+
+}
+
+#quote {
+	font-style: italic;
+	position: relative;
+	left: 20px;
+	margin: 10px 10px 5px;
+}
+
+#quoteName {
+	font-weight: bold;
+	float: right;
+	
+}
+
+#copyrightInfo {
+	font-size: 60%;
+	color: #808080;
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 150px;
+
+}
+#strike {
+	text-decoration: line-through;
+}
+
+h1 {
+	color: white;
+	font-size: 100px;
+	padding: 0px 15px;
+	font-weight: normal;
+	float: left;
+	position: relative;
+	top: -55px;
+
+}
+
+#logo {
+	height: 125px;
+	position: relative;
+	top: 12px;
+	left: 12px;
+	float: left;
+}
