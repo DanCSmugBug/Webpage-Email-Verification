@@ -5,6 +5,12 @@ function isEmail(email) {
 	return regex.test(email);
 }
 
+function isSpecialChar(userPassword) {
+	var regex = /[~`!#$%\^&*+=\-\[\]\\';,/{}|\\":<>\?]/g;
+	
+	return regex.test(userPassword);
+}
+
 	$("#submitForm").click(function() {
 		var errorMessage = "";
 		var missingField = "";
@@ -24,6 +30,7 @@ function isEmail(email) {
 			errorMessage += "Please input a valid phone number. "
 		
 		}
+		
 		if($("#password").val() == "") {
 			missingField += "Password ";
 		}
@@ -31,6 +38,14 @@ function isEmail(email) {
 		
 			errorMessage += "Your passwords do not match each other. "
 		
+		}
+		else if($("#password").val().length < 8) {
+			
+			errorMessage += "Your password does not meet the minimum length of 8 characters. "
+			
+		}
+		else if(isSpecialChar($("#password").val()) == false) {
+			errorMessage += "Your password does not contain at least one special character. "
 		}
 		
 		
