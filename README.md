@@ -10,3 +10,6 @@ and add in a requirement in length and characters for the password, like most pa
 
 It should be noted that this bit of code still has a lot of limitations to it. Currently it doesn't produce an account or add anything to
 a mailing list.
+
+Update: Quickly just added in further password verification, including password length and verifying that there is a special character.
+No more weak passwords will be made for this fake account!
